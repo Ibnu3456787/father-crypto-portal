@@ -5,7 +5,7 @@ export default function DocsPage() {
 
       <div className="bg-gray-900 text-white p-4 rounded-xl">
         <h2 className="font-semibold">1. Buat Project</h2>
-        <p>Isi nama project di dashboard dan klik "Add".</p>
+        <p>Isi nama project di dashboard dan klik &quot;Add&quot;.</p>
       </div>
 
       <div className="bg-gray-900 text-white p-4 rounded-xl">

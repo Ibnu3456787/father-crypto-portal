@@ -1,0 +1,11 @@
+{
+  "projects": [
+    {
+      "id": "p1",
+      "name": "Test Project",
+      "apiKey": "fc_r89khpw1x4",
+      "rpc": "https://rpc.fathercrypto.dev/test-project",
+      "createdAt": "2025-09-08T07:24:31.288Z"
+    }
+  ]
+}

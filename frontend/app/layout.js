@@ -1,4 +1,5 @@
 import "./globals.css";
+import Link from "next/link";
 
 export const metadata = {
   title: "Father Crypto Dev Portal",
@@ -14,19 +15,19 @@ export default function RootLayout({ children }) {
           <div className="font-bold text-lg">⚡ Father Crypto</div>
           <ul className="flex gap-6 text-sm font-medium">
             <li>
-              <a href="/" className="hover:text-gray-200">
+              <Link href="/" className="hover:text-gray-200">
                 Dashboard
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/apikeys" className="hover:text-gray-200">
+              <Link href="/apikeys" className="hover:text-gray-200">
                 API Keys
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/docs" className="hover:text-gray-200">
+              <Link href="/docs" className="hover:text-gray-200">
                 Docs
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
